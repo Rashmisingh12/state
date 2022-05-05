@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+
+    <form>
+        <label for="first name">First Name</label>
+        <input type="text" id="firstname" name="first">
+        <br>
+        <label for="last name">Last Name</label>
+        <input type="text" id="lastname" name="last">
+        <br>
+        <label for="sub">Subscribe</label>
+        <input type="checkbox" id="sub" name="sub">
+        <br>
+        <input type="submit">
+    </form>
+    <br>
+
+    <h1>First Name:{{.Fname}}</h1>
+    <h1>Last Name:{{.Lname}}</h1>
+    <h1>Subcribed:{{.Subcribed}}</h1>
+
+</body>
+
+</html>
